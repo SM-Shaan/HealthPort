@@ -1,7 +1,8 @@
 # Dataset files
 dataset/*.zip
 dataset/*/*.zip
-
+dataset/Disease_and_symptoms_dataset.csv
+dataset/dataset_tabular.csv
 # Python
 __pycache__/
 *.py[cod]
