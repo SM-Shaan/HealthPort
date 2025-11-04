@@ -6,7 +6,7 @@
     android:layout_marginEnd="12dp">
 
     <Button
-        android:id="@+id/symptomButton"
+        android:id="@+id/btnSymptom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="24dp"

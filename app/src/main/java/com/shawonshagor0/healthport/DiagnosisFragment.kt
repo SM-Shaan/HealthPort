@@ -4,9 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.shawonshagor0.healthport.adapter.SymptomAdapter
+import com.shawonshagor0.healthport.data.SymptomData
 import com.shawonshagor0.healthport.databinding.FragmentDiagnosisBinding
 import com.shawonshagor0.healthport.model.Symptom
 
@@ -15,38 +16,52 @@ class DiagnosisFragment : Fragment() {
     private var _binding: FragmentDiagnosisBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var adapter: SymptomAdapter
-    private val symptoms = mutableListOf(
-        Symptom("Fever"),
-        Symptom("Headache"),
-        Symptom("Cough"),
-        Symptom("Cold"),
-        Symptom("Fatigue"),
-        Symptom("Sore Throat"),
-        Symptom("Nausea"),
-        Symptom("Body Ache"),
-        Symptom("Dizziness"),
-        Symptom("Vomiting")
-    )
+    private lateinit var availableAdapter: SymptomAdapter
+    private lateinit var selectedAdapter: SymptomAdapter
+
+    private var allSymptoms = SymptomData.initialSymptoms.toMutableList()
+    private var selectedSymptoms = mutableListOf<Symptom>()
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         _binding = FragmentDiagnosisBinding.inflate(inflater, container, false)
 
-        setupRecyclerView()
+        // Setup Adapters
+        availableAdapter = SymptomAdapter(getEnabledSymptoms()) { onSymptomClick(it) }
+        selectedAdapter = SymptomAdapter(selectedSymptoms) { onSelectedSymptomClick(it) }
+
+        binding.rvSelectSymptoms.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.rvSelectSymptoms.adapter = availableAdapter
+
+        binding.rvSelectedSymptoms.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
+        binding.rvSelectedSymptoms.adapter = selectedAdapter
+
         return binding.root
     }
 
-    private fun setupRecyclerView() {
-        adapter = SymptomAdapter(symptoms) { symptom ->
-            Toast.makeText(requireContext(), "${symptom.name} ${if (symptom.isSelected) "selected" else "deselected"}", Toast.LENGTH_SHORT).show()
-        }
+    private fun onSymptomClick(symptom: Symptom) {
+        symptom.isSelected = true
+        selectedSymptoms.add(symptom)
+        updateLists()
+    }
 
-        binding.symptomRecyclerView.apply {
-            layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-            adapter = this@DiagnosisFragment.adapter
-        }
+    private fun onSelectedSymptomClick(symptom: Symptom) {
+        symptom.isSelected = false
+        selectedSymptoms.remove(symptom)
+        updateLists()
+    }
+
+    private fun updateLists() {
+        availableAdapter.updateSymptoms(getEnabledSymptoms())
+        selectedAdapter.updateSymptoms(selectedSymptoms)
+    }
+
+    private fun getEnabledSymptoms(): List<Symptom> {
+        return allSymptoms.filter { it.isEnabled && !it.isSelected }
     }
 
     override fun onDestroyView() {
