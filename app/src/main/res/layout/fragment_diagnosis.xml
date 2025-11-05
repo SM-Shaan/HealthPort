@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Selected Symptoms:"
-        android:textSize="18sp"
+        android:textSize="32sp"
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:layout_margin="8dp"
@@ -57,5 +57,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="326dp" />
+
+    <Button
+        android:id="@+id/btnGetDiagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Diagnosis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_select_symptoms" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

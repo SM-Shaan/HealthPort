@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.shawonshagor0.healthport.adapter.SymptomAdapter
 import com.shawonshagor0.healthport.data.SymptomData
@@ -41,6 +42,12 @@ class DiagnosisFragment : Fragment() {
         binding.rvSelectedSymptoms.adapter = selectedAdapter
 
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.btnGetDiagnosis.setOnClickListener { findNavController().navigate(R.id.action_diagnosisFragment_to_doctorListFragment) }
+
     }
 
     private fun onSymptomClick(symptom: Symptom) {

@@ -36,5 +36,14 @@
         android:id="@+id/diagnosisFragment"
         android:name="com.shawonshagor0.healthport.DiagnosisFragment"
         android:label="fragment_diagnosis"
-        tools:layout="@layout/fragment_diagnosis" />
+        tools:layout="@layout/fragment_diagnosis" >
+        <action
+            android:id="@+id/action_diagnosisFragment_to_doctorListFragment"
+            app:destination="@id/doctorListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorListFragment"
+        android:name="com.shawonshagor0.healthport.DoctorListFragment"
+        android:label="fragment_doctor_list"
+        tools:layout="@layout/fragment_doctor_list" />
 </navigation>
