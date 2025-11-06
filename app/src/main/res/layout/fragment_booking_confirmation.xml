@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    tools:context=".BookingConfirmationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_booking_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Confirmed 🎉"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/doctor_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_booking_confirmation" />
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Name"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:layout_marginTop="20dp"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_image" />
+    />
+
+    <TextView
+        android:id="@+id/doctor_hospital"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Hospital"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_name" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_book_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Go Home"
+        android:textColor="@color/design_default_color_on_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_hospital" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

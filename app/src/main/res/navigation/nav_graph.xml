@@ -45,5 +45,26 @@
         android:id="@+id/doctorListFragment"
         android:name="com.shawonshagor0.healthport.DoctorListFragment"
         android:label="fragment_doctor_list"
-        tools:layout="@layout/fragment_doctor_list" />
+        tools:layout="@layout/fragment_doctor_list" >
+        <action
+            android:id="@+id/action_doctorListFragment_to_appointmentFragment"
+            app:destination="@id/appointmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingConfirmationFragment"
+        android:name="com.shawonshagor0.healthport.BookingConfirmationFragment"
+        android:label="fragment_booking_confirmation"
+        tools:layout="@layout/fragment_booking_confirmation" >
+        <action
+            android:id="@+id/action_bookingConfirmationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentFragment"
+        android:name="com.shawonshagor0.healthport.AppointmentFragment"
+        android:label="AppointmentFragment" >
+        <action
+            android:id="@+id/action_appointmentFragment_to_bookingConfirmationFragment"
+            app:destination="@id/bookingConfirmationFragment" />
+    </fragment>
 </navigation>

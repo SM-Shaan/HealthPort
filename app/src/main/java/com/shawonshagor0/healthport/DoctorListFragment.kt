@@ -23,7 +23,7 @@ class DoctorListFragment : Fragment() {
     ): View {
         _binding = FragmentDoctorListBinding.inflate(inflater, container, false)
 
-        val sortedDoctors = DoctorData.getDoctors("Cardiology", 0.0, 0.0)
+        val sortedDoctors = DoctorData.getDoctors("Cardiology", 0.0, 0.0)//TODO: Appropriate location and dept
 
         // Set up RecyclerView
         adapter = DoctorAdapter(sortedDoctors)
