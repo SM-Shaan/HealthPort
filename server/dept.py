@@ -2,6 +2,7 @@ from embed_data import embed_data
 import requests
 import json
 import ollama
+from ollama import Client
 
 
 def disease_detection(model_embed, collection, query=None):
@@ -21,27 +22,58 @@ def disease_detection(model_embed, collection, query=None):
     return disease_list
 def dept_generate(disease=None):
     print("Generating department for disease:", disease)
-    model_name = "qwen3:1.7b"  # Ollama's hosted Qwen model
-    prompt_dept=f"""If the disease is: {disease}. Which department should I visit(Just write the department name only)?"""
-    response = ollama.generate(
-        model=model_name,
-        prompt=prompt_dept
+    client = Client(
+        host="https://ollama.com",
+        headers={'Authorization': 'Bearer 7efd7a1ff40e4dc5b8d19692d5f65af6.9WjyQeyPv2gcmkChoa-MQjxe' }
     )
-    print(response['response'])
-    dept=response['response'].strip()
+    prompt_dept=f"""If the disease is: {disease}. Which department should I visit(Just write the department name only)?"""
+    messages = [
+    {
+        'role': 'user',
+        'content': prompt_dept,
+    },
+    ]
+    dept = ""
+    for part in client.chat('deepseek-v3.1:671b-cloud', messages=messages, stream=True):
+        # Get the latest content chunk
+        chunk = part['message']['content']
+        print(chunk, end='', flush=True)  # Print as it streams
+        dept += chunk  # Accumulate
+
+    # Strip at the end
+    dept = dept.strip()
+
+    print(dept)
+
     return dept
 
 def dept_finalize(dept_list, disease=None):
-    model_name = "deepseek-r1:1.5b"  # Ollama's hosted Qwen model
+    print("Finalizing department for disease:", disease)
     dept_string = ", ".join(dept_list)
-
+    print(dept_string)
+    client = Client(
+        host="https://ollama.com",
+        headers={'Authorization': 'Bearer 7efd7a1ff40e4dc5b8d19692d5f65af6.9WjyQeyPv2gcmkChoa-MQjxe' }
+    )
     prompt_dept_finalize = f"""The following is a list of medical departments: {dept_string}. 
     Please finalize and return the most appropriate department for the given disease {disease}. 
     Just write the department name only."""
-    response2 = ollama.generate(
-        model=model_name,
-        prompt=prompt_dept_finalize
-    )
-    print(response2['response'])
-    finalized_dept=response2['response'].strip()
+    messages = [
+    {
+        'role': 'user',
+        'content': prompt_dept_finalize,
+    },
+    ]
+    finalized_dept = ""
+    for part in client.chat('deepseek-v3.1:671b-cloud', messages=messages, stream=True):
+        # Get the latest content chunk
+        chunk = part['message']['content']
+        print(chunk, end='', flush=True)  # Print as it streams
+        finalized_dept += chunk  # Accumulate
+
+    # Strip at the end
+    finalized_dept = finalized_dept.strip()
+
+    print(finalized_dept)
+
     return finalized_dept
