@@ -1,11 +1,12 @@
 from embed_data import embed_data
 import requests
 import json
+import ollama
 
 
-def disease_detection(model, collection, query=None):
+def disease_detection(model_embed, collection, query=None):
 
-    query_emb = model.encode(query).tolist()
+    query_emb = model_embed.encode(query).tolist()
 
     results = collection.query(
         query_embeddings=[query_emb],
@@ -19,26 +20,28 @@ def disease_detection(model, collection, query=None):
         disease_list.append(results['metadatas'][0][i]["disease"])
     return disease_list
 def dept_generate(disease=None):
-    response = requests.post(
-    url="https://openrouter.ai/api/v1/chat/completions",
-    headers={
-        "Authorization": "Bearer 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",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "<YOUR_SITE_URL>", # Optional. Site URL for rankings on openrouter.ai.
-        "X-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
-    },
-    data=json.dumps({
-        "model": "deepseek/deepseek-chat-v3.1:free",
-        "messages": [
-        {
-            "role": "user",
-            "content": "If the disease is: {disease}. Which department should I visit(Just write the department name only)?"
-        }
-        ],
-        
-    })
+    print("Generating department for disease:", disease)
+    model_name = "qwen3:1.7b"  # Ollama's hosted Qwen model
+    prompt_dept=f"""If the disease is: {disease}. Which department should I visit(Just write the department name only)?"""
+    response = ollama.generate(
+        model=model_name,
+        prompt=prompt_dept
     )
+    print(response['response'])
+    dept=response['response'].strip()
+    return dept
 
-    print(response.json()['choices'][0]['message']['content'])
-    # converting the response to string and returning it
-    return str(response.json()['choices'][0]['message']['content'])
+def dept_finalize(dept_list, disease=None):
+    model_name = "deepseek-r1:1.5b"  # Ollama's hosted Qwen model
+    dept_string = ", ".join(dept_list)
+
+    prompt_dept_finalize = f"""The following is a list of medical departments: {dept_string}. 
+    Please finalize and return the most appropriate department for the given disease {disease}. 
+    Just write the department name only."""
+    response2 = ollama.generate(
+        model=model_name,
+        prompt=prompt_dept_finalize
+    )
+    print(response2['response'])
+    finalized_dept=response2['response'].strip()
+    return finalized_dept

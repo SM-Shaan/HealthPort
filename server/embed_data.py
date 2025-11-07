@@ -5,14 +5,14 @@ import chromadb
 
 
 
-def embed_data(df, model, collection):
+def embed_data(df, model_embed, collection):
 
     # Keep a mapping from ID → disease name
     for row in df.iterrows():
         
         # print(test)
         # print(row[1]['response'])
-        emb = model.encode(row[1]['query']).tolist()
+        emb = model_embed.encode(row[1]['query']).tolist()
         collection.add(
             ids=[str(row[1]['id'])], 
             embeddings=[emb], 
