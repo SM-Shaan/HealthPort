@@ -151,6 +151,51 @@ async def fix_admin_password():
     finally:
         db.close()
 
+@app.get("/api/debug/test-admin-login")
+async def test_admin_login():
+    """
+    Debug: Test admin login step by step
+    """
+    from app.database import SessionLocal
+    from app.models import WebUser, Admin
+
+    db = SessionLocal()
+    try:
+        test_email = "admin@healthport.com"
+        test_password = "admin123"
+
+        # Step 1: Check WebUser
+        webuser = db.query(WebUser).filter(WebUser.email == test_email).first()
+        if not webuser:
+            return {"step": "webuser", "status": "FAIL", "message": "WebUser not found"}
+
+        # Step 2: Check usertype
+        if webuser.usertype != 'a':
+            return {"step": "usertype", "status": "FAIL", "usertype": webuser.usertype}
+
+        # Step 3: Check Admin
+        admin = db.query(Admin).filter(Admin.aemail == test_email).first()
+        if not admin:
+            return {"step": "admin", "status": "FAIL", "message": "Admin profile not found"}
+
+        # Step 4: Check password
+        password_match = (admin.apassword == test_password)
+
+        return {
+            "step": "complete",
+            "status": "SUCCESS" if password_match else "FAIL",
+            "webuser_exists": True,
+            "webuser_type": webuser.usertype,
+            "admin_exists": True,
+            "stored_password": admin.apassword,
+            "test_password": test_password,
+            "password_match": password_match,
+            "password_length": len(admin.apassword)
+        }
+
+    finally:
+        db.close()
+
 @app.on_event("startup")
 async def startup_event():
     """
