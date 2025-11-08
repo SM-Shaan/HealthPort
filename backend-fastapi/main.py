@@ -109,7 +109,7 @@ async def debug_admin():
     finally:
         db.close()
 
-@app.post("/api/debug/fix-admin-password")
+@app.get("/api/debug/fix-admin-password")
 async def fix_admin_password():
     """
     One-time fix: Update admin password from bcrypt hash to plain text
