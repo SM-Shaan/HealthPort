@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["python313"]
+nixPkgs = ["python313", "gcc", "gnumake"]
 
 [phases.install]
 cmds = [
