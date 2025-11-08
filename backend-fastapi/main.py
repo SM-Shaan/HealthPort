@@ -86,6 +86,29 @@ async def health_check():
         "version": "2.0.0"
     }
 
+@app.get("/api/debug/admin")
+async def debug_admin():
+    """
+    Debug endpoint to check if admin exists (REMOVE IN PRODUCTION!)
+    """
+    from app.database import SessionLocal
+    from app.models import WebUser, Admin
+
+    db = SessionLocal()
+    try:
+        webuser = db.query(WebUser).filter(WebUser.email == 'admin@healthport.com').first()
+        admin = db.query(Admin).filter(Admin.aemail == 'admin@healthport.com').first()
+
+        return {
+            "webuser_exists": webuser is not None,
+            "webuser_type": webuser.usertype if webuser else None,
+            "admin_exists": admin is not None,
+            "admin_has_password": bool(admin.apassword) if admin else False,
+            "password_length": len(admin.apassword) if admin and admin.apassword else 0
+        }
+    finally:
+        db.close()
+
 @app.on_event("startup")
 async def startup_event():
     """
