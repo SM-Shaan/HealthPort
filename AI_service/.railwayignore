@@ -17,9 +17,6 @@ chroma_db/
 # Downloaded models (downloaded at runtime)
 models/
 
-# Large dataset files (using sample instead)
-dataset/data_textual.csv
-
 # Documentation
 *.md
 
