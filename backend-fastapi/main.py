@@ -89,13 +89,26 @@ async def health_check():
 @app.on_event("startup")
 async def startup_event():
     """
-    Test database connection on startup
+    Test database connection, create tables, and seed initial data on startup
     """
     try:
         # Test connection
         connection = engine.connect()
         connection.close()
         print("[SUCCESS] MySQL Database connected successfully")
+
+        # Create all tables if they don't exist
+        print("[DATABASE] Creating tables if they don't exist...")
+        Base.metadata.create_all(bind=engine)
+        print("[SUCCESS] Database tables ready")
+
+        # Seed initial data (specialties, hospitals, admin user)
+        try:
+            from seed_data import seed_database
+            seed_database()
+        except Exception as seed_error:
+            print(f"[WARNING] Seeding failed (this is normal if data already exists): {seed_error}")
+
         print(f"[SERVER] FastAPI running on http://localhost:{os.getenv('PORT', 5000)}")
         print(f"[DOCS] API documentation at http://localhost:{os.getenv('PORT', 5000)}/docs")
     except Exception as e:
