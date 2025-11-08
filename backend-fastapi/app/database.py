@@ -21,11 +21,11 @@ MYSQL_DATABASE = os.getenv("MYSQLDATABASE")
 # If DATABASE_URL is not provided, construct it from individual variables
 if not DATABASE_URL:
     # Try Railway variables first, then fall back to custom DB_ variables
-    DB_HOST = MYSQL_HOST or os.getenv("DB_HOST", "localhost")
-    DB_PORT = MYSQL_PORT or os.getenv("DB_PORT", "3306")
-    DB_USER = MYSQL_USER or os.getenv("DB_USER", "root")
-    DB_PASSWORD = MYSQL_PASSWORD or os.getenv("DB_PASSWORD", "")
-    DB_NAME = MYSQL_DATABASE or os.getenv("DB_NAME", "edoc")
+    DB_USER = os.getenv("DB_USER")
+    DB_PASSWORD = os.getenv("DB_PASSWORD")
+    DB_HOST = os.getenv("DB_HOST")
+    DB_PORT = os.getenv("DB_PORT")
+    DB_NAME = os.getenv("DB_NAME")
 
     print(f"[DATABASE] Building connection from individual variables")
     print(f"[DATABASE] Host: {DB_HOST}, Port: {DB_PORT}, Database: {DB_NAME}")
