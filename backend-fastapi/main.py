@@ -20,19 +20,23 @@ origins = [
     "http://localhost:5173",  # Vite dev server
 ]
 
-# Add production URL if set
+# Add production URLs if set
 client_url = os.getenv("CLIENT_URL")
 if client_url:
-    origins.append(client_url)
-    # Also allow without trailing slash
-    if client_url.endswith("/"):
-        origins.append(client_url.rstrip("/"))
-    else:
-        origins.append(client_url + "/")
+    # Support comma-separated URLs
+    for url in client_url.split(","):
+        url = url.strip()
+        origins.append(url)
+        # Also allow without trailing slash
+        if url.endswith("/"):
+            origins.append(url.rstrip("/"))
+        else:
+            origins.append(url + "/")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",  # Allow all Vercel deployments
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
