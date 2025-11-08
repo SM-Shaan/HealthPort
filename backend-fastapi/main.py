@@ -109,6 +109,48 @@ async def debug_admin():
     finally:
         db.close()
 
+@app.post("/api/debug/fix-admin-password")
+async def fix_admin_password():
+    """
+    One-time fix: Update admin password from bcrypt hash to plain text
+    REMOVE IN PRODUCTION!
+    """
+    from app.database import SessionLocal
+    from app.models import Admin
+
+    db = SessionLocal()
+    try:
+        admin = db.query(Admin).filter(Admin.aemail == 'admin@healthport.com').first()
+
+        if not admin:
+            return {"status": "error", "message": "Admin user not found"}
+
+        old_length = len(admin.apassword)
+
+        # Check if password is hashed (bcrypt hashes are 60 chars)
+        if old_length == 60:
+            admin.apassword = "admin123"
+            db.commit()
+            return {
+                "status": "success",
+                "message": "Password updated from bcrypt hash to plain text",
+                "old_length": old_length,
+                "new_length": 8,
+                "new_password": "admin123"
+            }
+        else:
+            return {
+                "status": "skipped",
+                "message": "Password is already plain text",
+                "password_length": old_length
+            }
+
+    except Exception as e:
+        db.rollback()
+        return {"status": "error", "message": str(e)}
+    finally:
+        db.close()
+
 @app.on_event("startup")
 async def startup_event():
     """
