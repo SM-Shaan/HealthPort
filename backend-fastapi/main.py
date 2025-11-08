@@ -48,6 +48,33 @@ app.include_router(patients.router, prefix="/api")
 app.include_router(specialties.router, prefix="/api")
 app.include_router(hospital_manager.router)
 
+@app.get("/")
+async def root():
+    """
+    Root endpoint - API information
+    """
+    return {
+        "name": "HealthPort API",
+        "version": "2.0.0",
+        "description": "Hospital appointment management system API",
+        "status": "running",
+        "endpoints": {
+            "documentation": "/docs",
+            "openapi_schema": "/openapi.json",
+            "health_check": "/api/health"
+        },
+        "api_routes": {
+            "auth": "/api/auth",
+            "doctors": "/api/doctors",
+            "appointments": "/api/appointments",
+            "schedules": "/api/schedules",
+            "patients": "/api/patients",
+            "specialties": "/api/specialties",
+            "hospitals": "/api/hospitals",
+            "hospital_manager": "/api/hospital-manager"
+        }
+    }
+
 @app.get("/api/health")
 async def health_check():
     """
