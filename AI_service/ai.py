@@ -27,7 +27,9 @@ dept_list=[]
 async def lifespan(app: FastAPI):
     global model_embed, collection, client, qwen_model, tokenizer_qwen3
     df=pd.read_csv("dataset/data_sample.csv") # Using sample dataset for faster deployment
-    # print(df.head())
+    print(f"📊 CSV loaded. Columns: {df.columns.tolist()}")
+    print(f"📊 CSV shape: {df.shape}")
+    print(f"📊 First row sample: {df.iloc[0].to_dict() if len(df) > 0 else 'EMPTY'}")
     client = chromadb.PersistentClient(path="./chroma_db")
     collection = client.get_or_create_collection(name="disease_symptoms")
     HF_TOKEN = "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" 
