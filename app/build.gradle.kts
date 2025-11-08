@@ -57,4 +57,5 @@ dependencies {
 
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
+    implementation("androidx.core:core-splashscreen:1.2.0")
 }

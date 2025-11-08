@@ -10,5 +10,6 @@ data class Doctor(
     val phone: String,
     val lat: Double,
     val long: Double,
-    val schedule: String
+    val schedule: String,
+    val img: String
 )

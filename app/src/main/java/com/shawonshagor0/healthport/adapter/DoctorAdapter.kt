@@ -8,8 +8,9 @@ import com.shawonshagor0.healthport.model.Doctor
 
 class DoctorAdapter (
     private var doctors: List<Doctor>,
+    private val onBookAppointmentClick: (Doctor) -> Unit
 ): RecyclerView.Adapter<DoctorAdapter.DoctorViewHolder>() {
-    inner class DoctorViewHolder(private val binding: ItemDoctorBinding) :
+    inner class DoctorViewHolder(internal val binding: ItemDoctorBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(doctor: Doctor) {
             binding.doctorName.text = doctor.name
@@ -27,6 +28,9 @@ class DoctorAdapter (
 
     override fun onBindViewHolder(holder: DoctorViewHolder, position: Int) {
         holder.bind(doctors[position])
+        holder.binding.btnBookAppointment.setOnClickListener {
+            onBookAppointmentClick(doctors[position])
+        }
     }
 
     override fun getItemCount(): Int = doctors.size

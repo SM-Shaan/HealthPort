@@ -39,8 +39,8 @@ class AppointmentFragment : Fragment() {
         }
 
         binding.btnBookAppointment.setOnClickListener {
+            findNavController().navigate(R.id.action_appointmentFragment_to_bookingConfirmationFragment)
             Toast.makeText(requireContext(), "Appointment Booked", Toast.LENGTH_SHORT).show()
-            binding.btnBookAppointment.setOnClickListener { findNavController().navigate(R.id.action_appointmentFragment_to_bookingConfirmationFragment) }
 
 
         }

@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.shawonshagor0.healthport.adapter.DoctorAdapter
 import com.shawonshagor0.healthport.data.DoctorData
@@ -26,7 +27,9 @@ class DoctorListFragment : Fragment() {
         val sortedDoctors = DoctorData.getDoctors("Cardiology", 0.0, 0.0)//TODO: Appropriate location and dept
 
         // Set up RecyclerView
-        adapter = DoctorAdapter(sortedDoctors)
+        adapter = DoctorAdapter(sortedDoctors, onBookAppointmentClick = {
+            findNavController().navigate(R.id.action_doctorListFragment_to_appointmentFragment)
+        })
         binding.rvDoctorList.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         binding.rvDoctorList.adapter = adapter

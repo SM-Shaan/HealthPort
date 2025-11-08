@@ -13,7 +13,8 @@ object DoctorData {
             "123-456-7890",
             40.7128,
             -74.0060,
-            "Monday-Thursday, 7:00pm-10:00pm"
+            "Monday-Thursday, 7:00pm-10:00pm",
+            ""
         ),
         Doctor(
             "Jane",
@@ -23,7 +24,8 @@ object DoctorData {
             "987-654-3210",
             34.0522,
             -118.243,
-            "Monday-Thursday, 7:00pm-10:00pm"
+            "Monday-Thursday, 7:00pm-10:00pm",
+            ""
 
         ),
         Doctor(
@@ -34,7 +36,8 @@ object DoctorData {
             "555-555-5555",
             51.5074,
             -0.1278,
-            "Monday-Thursday, 7:00pm-10:00pm"
+            "Monday-Thursday, 7:00pm-10:00pm",
+            ""
 
         ),
         Doctor(
@@ -45,7 +48,8 @@ object DoctorData {
             "111-222-3333",
             37.7749,
             -122.41,
-            "Monday-Thursday, 7:00pm-10:00pm"
+            "Monday-Thursday, 7:00pm-10:00pm",
+            ""
 
         )
     )
