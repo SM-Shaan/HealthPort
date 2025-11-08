@@ -67,27 +67,27 @@ const ManagerHome = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StatusCard
             title="Total Doctors"
-            value={stats.totalDoctors}
+            count={stats.totalDoctors}
             icon="👨‍⚕️"
-            color="blue"
+            bgColor="bg-blue-50"
           />
           <StatusCard
             title="Total Appointments"
-            value={stats.totalAppointments}
+            count={stats.totalAppointments}
             icon="📋"
-            color="green"
+            bgColor="bg-green-50"
           />
           <StatusCard
             title="Total Patients"
-            value={stats.totalPatients}
+            count={stats.totalPatients}
             icon="👥"
-            color="purple"
+            bgColor="bg-purple-50"
           />
           <StatusCard
             title="Total Schedules"
-            value={stats.totalSchedules}
+            count={stats.totalSchedules}
             icon="📅"
-            color="orange"
+            bgColor="bg-orange-50"
           />
         </div>
       )}

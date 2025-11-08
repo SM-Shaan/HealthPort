@@ -19,7 +19,7 @@ const menuItems = [
 
 const PatientDashboard = () => {
   return (
-    <DashboardLayout menuItems={menuItems} userRole="patient">
+    <DashboardLayout menuItems={menuItems}>
       <Routes>
         <Route index element={<PatientHome />} />
         <Route path="doctors" element={<BrowseDoctors />} />

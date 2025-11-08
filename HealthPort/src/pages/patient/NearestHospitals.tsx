@@ -336,7 +336,6 @@ const NearestHospitals = () => {
                       <Button
                         onClick={() => handleBookAppointment(doctor, hospital.name)}
                         variant="primary"
-                        size="sm"
                       >
                         Book Appointment
                       </Button>

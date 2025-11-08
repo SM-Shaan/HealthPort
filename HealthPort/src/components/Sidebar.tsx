@@ -8,10 +8,9 @@ interface MenuItem {
 
 interface SidebarProps {
   menuItems: MenuItem[];
-  userRole: string;
 }
 
-const Sidebar = ({ menuItems, userRole }: SidebarProps) => {
+const Sidebar = ({ menuItems }: SidebarProps) => {
   const location = useLocation();
 
   return (

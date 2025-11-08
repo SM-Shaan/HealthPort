@@ -11,11 +11,10 @@ interface MenuItem {
 interface DashboardLayoutProps {
   children: ReactNode;
   menuItems: MenuItem[];
-  userRole: string;
   title?: string;
 }
 
-const DashboardLayout = ({ children, menuItems, userRole, title }: DashboardLayoutProps) => {
+const DashboardLayout = ({ children, menuItems, title }: DashboardLayoutProps) => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Top Navbar */}
@@ -23,7 +22,7 @@ const DashboardLayout = ({ children, menuItems, userRole, title }: DashboardLayo
 
       {/* Main Layout with Sidebar */}
       <div className="flex">
-        <Sidebar menuItems={menuItems} userRole={userRole} />
+        <Sidebar menuItems={menuItems} />
         <div className="ml-64 flex-1">
           {title && (
             <div className="bg-white shadow-sm px-8 py-4 border-b">

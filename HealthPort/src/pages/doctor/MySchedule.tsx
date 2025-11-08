@@ -317,7 +317,6 @@ const MySchedule = () => {
                   <Button
                     onClick={() => handleDelete(schedule.scheduleid, schedule.title)}
                     variant="danger"
-                    size="sm"
                   >
                     Delete
                   </Button>

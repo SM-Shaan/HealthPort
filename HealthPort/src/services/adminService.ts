@@ -1,7 +1,7 @@
 import { doctorService } from './doctorService';
 import { patientService } from './patientService';
 import { appointmentService, Appointment } from './appointmentService';
-import { scheduleService, Schedule } from './scheduleService';
+import { scheduleService } from './scheduleService';
 
 export interface AdminStats {
   totalDoctors: number;

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { DoctorInHospital } from '../services/hospitalService';
 import { scheduleService, Schedule } from '../services/scheduleService';
 import Button from './Button';
-import Input from './Input';
 
 interface BookingModalProps {
   isOpen: boolean;
@@ -313,14 +312,14 @@ const BookingModal = ({
                             </div>
                             <div className="flex items-center gap-3">
                               <div className={`px-4 py-2 rounded-lg text-sm font-bold ${
-                                schedule.available_slots > 5
+                                (schedule.available_slots ?? 0) > 5
                                   ? 'bg-green-100 text-green-800'
-                                  : schedule.available_slots > 2
+                                  : (schedule.available_slots ?? 0) > 2
                                   ? 'bg-yellow-100 text-yellow-800'
                                   : 'bg-orange-100 text-orange-800'
                               }`}>
                                 <div className="text-center">
-                                  <div className="text-2xl">{schedule.available_slots}</div>
+                                  <div className="text-2xl">{schedule.available_slots ?? 0}</div>
                                   <div className="text-xs opacity-75">of {schedule.nop} slots</div>
                                 </div>
                               </div>

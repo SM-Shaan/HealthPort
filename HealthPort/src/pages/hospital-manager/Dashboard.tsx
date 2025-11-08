@@ -18,7 +18,7 @@ const menuItems = [
 
 const HospitalManagerDashboard = () => {
   return (
-    <DashboardLayout menuItems={menuItems} userRole="hospital_manager">
+    <DashboardLayout menuItems={menuItems}>
       <Routes>
         <Route index element={<ManagerHome />} />
         <Route path="hospital" element={<HospitalInfo />} />

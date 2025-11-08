@@ -19,7 +19,7 @@ const menuItems = [
 
 const AdminDashboard = () => {
   return (
-    <DashboardLayout menuItems={menuItems} userRole="admin">
+    <DashboardLayout menuItems={menuItems}>
       <Routes>
         <Route index element={<AdminHome />} />
         <Route path="doctors" element={<Doctors />} />

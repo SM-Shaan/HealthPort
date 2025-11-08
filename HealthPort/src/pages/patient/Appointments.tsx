@@ -222,7 +222,6 @@ const Appointments = () => {
                     <Button
                       onClick={() => handleCancelAppointment(appointment.appoid)}
                       variant="secondary"
-                      size="sm"
                     >
                       Cancel
                     </Button>
