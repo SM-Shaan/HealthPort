@@ -15,7 +15,7 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     lat1_rad = math.radians(lat1)
     lon1_rad = math.radians(lon1)
     lat2_rad = math.radians(lat2)
-    lon2_rad = math.radians(lon2)
+    lon2_rad = math.radians(lon2) 
 
     # Haversine formula
     dlat = lat2_rad - lat1_rad

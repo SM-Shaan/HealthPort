@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
-from app.routers import auth, doctors, appointments, schedules, patients, specialties, hospitals, hospital_manager
+from app.routers import auth, doctors, appointments, schedules, patients, specialties, hospitals, hospital_manager, diagnosis
 import os
 from dotenv import load_dotenv
 
@@ -51,6 +51,7 @@ app.include_router(schedules.router, prefix="/api")
 app.include_router(patients.router, prefix="/api")
 app.include_router(specialties.router, prefix="/api")
 app.include_router(hospital_manager.router)
+app.include_router(diagnosis.router, prefix="/api")  # AI diagnosis integration
 
 @app.get("/")
 async def root():
