@@ -26,8 +26,7 @@ dept_list=[]
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model_embed, collection, client, qwen_model, tokenizer_qwen3
-    df=pd.read_csv("dataset/data_textual.csv") # This is your startup logic
-    df=df[:1000]
+    df=pd.read_csv("dataset/data_sample.csv") # Using sample dataset for faster deployment
     # print(df.head())
     client = chromadb.PersistentClient(path="./chroma_db")
     collection = client.get_or_create_collection(name="disease_symptoms")
