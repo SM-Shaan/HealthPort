@@ -9,6 +9,7 @@ import PatientDashboard from './pages/patient/Dashboard'
 import HospitalManagerDashboard from './pages/hospital-manager/Dashboard'
 import LandingPage from './pages/LandingPage'
 import ProtectedRoute from './components/ProtectedRoute'
+import Debug from './pages/Debug'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/create-account" element={<CreateAccount />} />
+          <Route path="/debug" element={<Debug />} />
 
           {/* Protected routes - Admin */}
           <Route path="/admin/*" element={
