@@ -5,7 +5,6 @@ Populates initial specialties, hospitals, and admin user
 from sqlalchemy.orm import Session
 from app.models import Specialty, Hospital, WebUser, Admin
 from app.database import SessionLocal, engine
-import bcrypt
 
 def seed_specialties(db: Session):
     """Seed medical specialties"""
@@ -116,9 +115,8 @@ def seed_admin(db: Session):
 
     print("[SEED] Creating default admin user...")
 
-    # Create admin webuser
+    # Password (stored as plain text to match existing system pattern)
     password = "admin123"
-    hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
     admin_user = WebUser(
         email="admin@healthport.com",
@@ -130,7 +128,7 @@ def seed_admin(db: Session):
     # Create admin profile
     admin_profile = Admin(
         aemail="admin@healthport.com",
-        apassword=hashed_password
+        apassword=password
     )
     db.add(admin_profile)
 
