@@ -14,10 +14,11 @@
         android:id="@+id/tv_booking_confirmation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Booking Confirmed 🎉"
-        android:textSize="20dp"
+        android:text="@string/booking_confirmed"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:id="@+id/doctor_image"
@@ -36,7 +37,7 @@
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Name"
+        android:text="@string/name"
         android:textColor="@color/material_dynamic_neutral20"
         android:layout_marginTop="20dp"
 
@@ -53,7 +54,7 @@
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Hospital"
+        android:text="@string/hospital"
         android:textColor="@color/material_dynamic_neutral20"
         android:layout_marginTop="10dp"
 
@@ -66,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/design_default_color_primary"
-        android:text="Go Home"
+        android:text="@string/go_home"
         android:textColor="@color/design_default_color_on_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

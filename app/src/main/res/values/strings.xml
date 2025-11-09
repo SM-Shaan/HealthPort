@@ -1,5 +1,47 @@
 <resources>
     <string name="app_name">HealthPort</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="appointment_booking_details">Appointment Booking Details:</string>
+    <string name="book_for_me">Book For Me</string>
+    <string name="book_for_other">Book For Other</string>
+    <string name="full_name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="symptoms">Symptoms:</string>
+    <string name="additional_notes">Additional Notes</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="booking_confirmed">Booking Confirmed 🎉</string>
+    <string name="name">Name</string>
+    <string name="hospital">Hospital</string>
+    <string name="go_home">Go Home</string>
+    <string name="dept">Dept</string>
+    <string name="schedule">Schedule</string>
+    <string name="joint_pain">Joint pain</string>
+    <string name="fever">Fever</string>
+    <string name="cough">Cough</string>
+    <string name="muscle_pain">Muscle pain</string>
+    <string name="headache">Headache</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="you_might_be_affected_by">You might be affected by:</string>
+    <string name="osteoarthritis">osteoarthritis</string>
+    <string name="rhinitis">Rhinitis</string>
+    <string name="shoulder_injury">Shoulder Injury</string>
+    <string name="chikungunya">chikungunya</string>
+    <string name="dengue">Dengue</string>
+    <string name="suggested_department">Suggested Department:</string>
+    <string name="orthopedics">Orthopedics</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign up</string>
+    <string name="welcome_to_healthport">Welcome to HealthPort!</string>
+    <string name="start_new_diagnosis">Start New Diagnosis</string>
+    <string name="doctors_nearby">Doctors Nearby:</string>
+    <string name="selected_symptoms">Selected Symptoms:</string>
+    <string name="select_symptoms">Select Symptoms:</string>
+    <string name="get_diagnosis">Get Diagnosis</string>
+    <string name="Language">English/বাংলা</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="Symptom"
+        android:text="@string/symptoms"
         android:backgroundTint="@android:color/holo_blue_light"
         android:textColor="@android:color/holo_blue_dark"
         android:textAllCaps="false" />

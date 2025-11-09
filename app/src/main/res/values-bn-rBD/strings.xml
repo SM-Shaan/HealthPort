@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">হেলথপোর্ট</string>
+    <string name="book_appointment">অ্যাপয়েন্টমেন্ট নিন</string>
+    <string name="appointment_booking_details">বিস্তারিত তথ্য</string>
+    <string name="book_for_me">নিজের জন্য বুক করুন</string>
+    <string name="book_for_other">অন্যের জন্য বুক করুন</string>
+    <string name="full_name">সম্পূর্ণ নাম</string>
+    <string name="age">"বয়স "</string>
+    <string name="male">পুরুষ</string>
+    <string name="female">মহিলা</string>
+    <string name="symptoms">লক্ষণসমূহ:</string>
+    <string name="additional_notes">অতিরিক্ত নোট</string>
+    <string name="confirm_booking">বুকিং নিন</string>
+    <string name="booking_confirmed">বুকিং সফল হয়েছে 🎉</string>
+    <string name="name">নাম</string>
+    <string name="hospital">হাসপাতাল</string>
+    <string name="go_home">হোম পেজ এ ফিরে যাই</string>
+    <string name="dept">ডিপার্টমেন্ট</string>
+    <string name="schedule">শিডিউল</string>
+    <string name="joint_pain">গাঁটে ব্যথা</string>
+    <string name="fever">জ্বর</string>
+    <string name="cough">কাশি</string>
+    <string name="muscle_pain">মাংসপেশির ব্যথা</string>
+    <string name="headache">মাথা ব্যথা</string>
+    <string name="diagnostics">রোগ নির্ণয়</string>
+    <string name="you_might_be_affected_by">আপনি হয়তো এই রোগে আক্রান্ত:</string>
+    <string name="osteoarthritis">অস্টিওআর্থ্রাইটিস</string>
+    <string name="rhinitis">রাইনাইটিস</string>
+    <string name="shoulder_injury">কাঁধের আঘাত</string>
+    <string name="chikungunya">চিকুনগুনিয়া</string>
+    <string name="dengue">ডেঙ্গু</string>
+    <string name="suggested_department">প্রস্তাবিত বিভাগ</string>
+    <string name="orthopedics">অর্থোপেডিকস</string>
+    <string name="email">ইমেল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="sign_up">সাইন আপ</string>
+    <string name="login">লগইন</string>
+    <string name="don_t_have_an_account_sign_up">আপনার অ্যাকাউন্ট নেই? সাইন আপ করুন।</string>
+    <string name="welcome_to_healthport">হেলথপোর্টে স্বাগতম!</string>
+    <string name="start_new_diagnosis">নতুন রোগ নির্ণয় শুরু করুন</string>
+    <string name="doctors_nearby">কাছাকাছি ডাক্তারগণ</string>
+    <string name="selected_symptoms">নির্বাচিত উপসর্গসমূহ</string>
+    <string name="select_symptoms">উপসর্গ নির্বাচন করুন</string>
+    <string name="get_diagnosis">রোগ নির্ণয় করুন</string>
+</resources>

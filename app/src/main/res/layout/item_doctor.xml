@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Dept"
+        android:text="@string/dept"
         android:textColor="@color/material_dynamic_neutral20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/doctor_image" />
@@ -32,7 +32,7 @@
         android:layout_marginStart="8dp"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Name"
+        android:text="@string/name"
         android:textColor="@color/material_dynamic_neutral20"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -48,7 +48,7 @@
         android:layout_marginTop="4dp"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Hospital"
+        android:text="@String/hospital"
         android:textColor="@color/material_dynamic_neutral20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/doctor_image"
@@ -58,7 +58,7 @@
         android:id="@+id/doctor_appointment_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SCHEDULE"
+        android:text="@string/schedule"
         android:textColor="@color/material_dynamic_neutral20"
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
         android:layout_margin="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/doctor_hospital"
-        android:text="Book Appointment"/>
+        android:text="@string/book_appointment"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
