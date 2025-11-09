@@ -22,7 +22,7 @@ class SymptomAdapter(
             val bgColor = if (symptom.isSelected)
                 ContextCompat.getColor(context, com.google.android.material.R.color.material_dynamic_secondary50)
             else
-                ContextCompat.getColor(context, R.color.white)
+                ContextCompat.getColor(context, com.google.android.material.R.color.material_dynamic_primary100)
 
             binding.btnSymptom.setBackgroundColor(bgColor)
 

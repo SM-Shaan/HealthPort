@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="32dp"
-    android:background="@color/white"
+    android:background="@color/material_dynamic_primary100"
     tools:context=".MainActivity">
 
 
@@ -75,10 +75,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/doctor_appointment_time"
-        android:weekDayTextAppearance="@color/black"
+        android:weekDayTextAppearance="@color/material_dynamic_primary0"
         android:minDate="01-01-2002"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_book_appointment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

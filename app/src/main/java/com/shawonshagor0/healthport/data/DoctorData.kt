@@ -18,7 +18,7 @@ object DoctorData {
                 40.7128,
                 -74.0060,
                 "সোম–বৃহঃ, সন্ধ্যা ৭টা–রাত ১০টা",
-                ""
+                R.drawable.profile_one
             ),
             Doctor(
                 "সহকারি অধ্যাপক খন্দকার মোস্তাক",
@@ -29,7 +29,7 @@ object DoctorData {
                 34.0522,
                 -118.243,
                 "সোম–বৃহঃ, সন্ধ্যা ৭টা–রাত ১০টা",
-                ""
+                R.drawable.profile_two
 
             ),
             Doctor(
@@ -41,7 +41,8 @@ object DoctorData {
                 51.5074,
                 -0.1278,
                 "সোম–বৃহঃ, সন্ধ্যা ৭টা–রাত ১০টা",
-                ""
+                R.drawable.profile_three
+
 
             ),
             Doctor(
@@ -53,7 +54,8 @@ object DoctorData {
                 37.7749,
                 -122.41,
                 "সোম–বৃহঃ, সন্ধ্যা ৭টা–রাত ১০টা",
-                ""
+                R.drawable.profile_one
+
 
             )
         )

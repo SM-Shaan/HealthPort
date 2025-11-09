@@ -10,10 +10,14 @@
         android:label="Login">
         <action
             android:id="@+id/action_loginFragment_to_signupFragment"
-            app:destination="@id/signupFragment" />
+            app:destination="@id/signupFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
 
     <fragment
@@ -22,7 +26,9 @@
         android:label="Signup" >
         <action
             android:id="@+id/action_signupFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -30,7 +36,9 @@
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_diagnosisFragment"
-            app:destination="@id/diagnosisFragment" />
+            app:destination="@id/diagnosisFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/diagnosisFragment"
@@ -39,7 +47,9 @@
         tools:layout="@layout/fragment_diagnosis" >
         <action
             android:id="@+id/action_diagnosisFragment_to_diseaseFragment"
-            app:destination="@id/diseaseFragment" />
+            app:destination="@id/diseaseFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/doctorListFragment"
@@ -48,7 +58,9 @@
         tools:layout="@layout/fragment_doctor_list" >
         <action
             android:id="@+id/action_doctorListFragment_to_appointmentFragment"
-            app:destination="@id/appointmentFragment" />
+            app:destination="@id/appointmentFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/bookingConfirmationFragment"
@@ -57,7 +69,9 @@
         tools:layout="@layout/fragment_booking_confirmation" >
         <action
             android:id="@+id/action_bookingConfirmationFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/appointmentFragment"
@@ -65,7 +79,9 @@
         android:label="AppointmentFragment" >
         <action
             android:id="@+id/action_appointmentFragment_to_appointmentDetailsFragment"
-            app:destination="@id/appointmentDetailsFragment" />
+            app:destination="@id/appointmentDetailsFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/diseaseFragment"
@@ -74,7 +90,9 @@
         tools:layout="@layout/fragment_disease" >
         <action
             android:id="@+id/action_diseaseFragment_to_doctorListFragment"
-            app:destination="@id/doctorListFragment" />
+            app:destination="@id/doctorListFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
     <fragment
         android:id="@+id/appointmentDetailsFragment"
@@ -83,6 +101,8 @@
         tools:layout="@layout/fragment_appointment_details" >
         <action
             android:id="@+id/action_appointmentDetailsFragment_to_bookingConfirmationFragment"
-            app:destination="@id/bookingConfirmationFragment" />
+            app:destination="@id/bookingConfirmationFragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left" />
     </fragment>
 </navigation>

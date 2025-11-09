@@ -3,9 +3,10 @@ package com.shawonshagor0.healthport.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.shawonshagor0.healthport.R
 import com.shawonshagor0.healthport.databinding.ItemDoctorBinding
 import com.shawonshagor0.healthport.model.Doctor
-
+import com.bumptech.glide.Glide
 class DoctorAdapter (
     private var doctors: List<Doctor>,
     private val onBookAppointmentClick: (Doctor) -> Unit
@@ -17,6 +18,9 @@ class DoctorAdapter (
             binding.doctorHospital.text = doctor.hospital
             binding.doctorDept.text = doctor.department
             binding.doctorAppointmentTime.text = doctor.schedule
+            Glide.with(binding.root.context)
+                .load(doctor.img)
+                .into(binding.doctorImage)
             val context = binding.root.context
         }
 

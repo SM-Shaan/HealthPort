@@ -57,5 +57,10 @@ dependencies {
 
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
-    implementation("androidx.core:core-splashscreen:1.2.0")
+    implementation(libs.androidx.core.splashscreen)
+    implementation(libs.glide)
+    implementation(libs.androidx.material3)
+// or latest
+    implementation(libs.androidx.ui)
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.0")
 }

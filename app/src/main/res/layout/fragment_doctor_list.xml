@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <com.google.android.gms.maps.MapView
+    <ImageView
         android:id="@+id/mapView"
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -24,7 +24,9 @@
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_doc_list_title" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_doc_list_title"
+        android:src="@drawable/map"/>
+
 
     <TextView
         android:id="@+id/tv_doc_list_doctor_list"
