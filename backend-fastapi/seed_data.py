@@ -121,7 +121,7 @@ def seed_hospital_managers(db: Session):
     print("[SEED] Adding hospital managers...")
     for mgr_data in managers_data:
         # Add WebUser first
-        web_user = WebUser(email=mgr_data["email"], usertype="m")
+        web_user = WebUser(email=mgr_data["email"], usertype="h")  # Fixed: 'h' not 'm'
         db.add(web_user)
         db.flush()
 

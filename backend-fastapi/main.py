@@ -201,6 +201,98 @@ async def test_admin_login():
     finally:
         db.close()
 
+@app.get("/api/admin/fix-hospital-managers")
+async def fix_hospital_managers():
+    """
+    One-time fix: Update hospital manager usertype from 'm' to 'h'
+    This fixes the login issue for hospital managers.
+    """
+    from app.database import SessionLocal
+    from app.models import WebUser, HospitalManager
+    from sqlalchemy import text
+
+    db = SessionLocal()
+    try:
+        # Check current state
+        check_query = text("""
+            SELECT w.email, w.usertype, m.name
+            FROM webuser w
+            INNER JOIN hospital_manager m ON w.email = m.email
+        """)
+
+        current_state = db.execute(check_query).fetchall()
+
+        if not current_state:
+            return {
+                "status": "error",
+                "message": "No hospital managers found in database",
+                "fixed_count": 0,
+                "managers": []
+            }
+
+        # Count managers with wrong usertype
+        wrong_count = sum(1 for _, usertype, _ in current_state if usertype != 'h')
+
+        if wrong_count == 0:
+            return {
+                "status": "success",
+                "message": "All hospital managers already have correct usertype 'h'",
+                "fixed_count": 0,
+                "managers": [
+                    {"email": email, "name": name, "usertype": usertype, "status": "already_correct"}
+                    for email, usertype, name in current_state
+                ]
+            }
+
+        # Fix the usertype
+        update_query = text("""
+            UPDATE webuser
+            SET usertype = 'h'
+            WHERE email IN (
+                SELECT email FROM hospital_manager
+            ) AND usertype != 'h'
+        """)
+
+        result = db.execute(update_query)
+        db.commit()
+        rows_affected = result.rowcount
+
+        # Verify the fix
+        verify_query = text("""
+            SELECT w.email, w.usertype, m.name
+            FROM webuser w
+            INNER JOIN hospital_manager m ON w.email = m.email
+        """)
+
+        verified_state = db.execute(verify_query).fetchall()
+
+        return {
+            "status": "success",
+            "message": f"Successfully fixed {rows_affected} hospital manager record(s)",
+            "fixed_count": rows_affected,
+            "managers": [
+                {
+                    "email": email,
+                    "name": name,
+                    "usertype": usertype,
+                    "password": "manager123",
+                    "status": "fixed" if usertype == 'h' else "failed"
+                }
+                for email, usertype, name in verified_state
+            ],
+            "login_info": "All hospital managers can now log in with password: manager123"
+        }
+
+    except Exception as e:
+        db.rollback()
+        return {
+            "status": "error",
+            "message": f"Fix failed: {str(e)}",
+            "fixed_count": 0
+        }
+    finally:
+        db.close()
+
 @app.on_event("startup")
 async def startup_event():
     """
