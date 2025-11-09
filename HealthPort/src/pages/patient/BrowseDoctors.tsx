@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Table from '../../components/Table';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
-import { Doctor, Specialty, Schedule } from '../../types';
+import { Doctor, Specialty } from '../../types';
 import { doctorService } from '../../services/doctorService';
 import { scheduleService } from '../../services/scheduleService';
 
