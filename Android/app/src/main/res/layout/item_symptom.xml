@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginEnd="12dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSymptom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cornerRadius="8dp"
+        android:text="@string/symptoms"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@color/material_dynamic_primary100"
+        android:textAllCaps="false" />
+</LinearLayout>
