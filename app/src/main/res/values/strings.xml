@@ -43,5 +43,14 @@
     <string name="selected_symptoms">Selected Symptoms:</string>
     <string name="select_symptoms">Select Symptoms:</string>
     <string name="get_diagnosis">Get Diagnosis</string>
-    <string name="Language">English/বাংলা</string>
+    <string name="Language" translatable="false">English/বাংলা</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="nausea">Nausea</string>
+    <string name="fatigue">Fatigue</string>
+    <string name="body_ache">Body Ache</string>
+    <string name="cardiology">Cardiology</string>
+    <string name="apollo">Apollo</string>
+    <string name="square">Square</string>
+    <string name="labaid">Labaid</string>
+
 </resources>

@@ -16,7 +16,7 @@
         android:layout_marginTop="18dp"
         android:text="@string/Language"
         android:backgroundTint="@color/white"
-        android:textColor="@color/material_dynamic_primary60"
+        android:textColor="@color/material_dynamic_primary50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSignup" />

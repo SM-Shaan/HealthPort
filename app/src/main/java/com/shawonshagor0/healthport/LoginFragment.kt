@@ -36,6 +36,11 @@ class LoginFragment : Fragment() {
         binding.tvSignup.setOnClickListener {
             findNavController().navigate(R.id.action_loginFragment_to_signupFragment)
         }
+
+        binding.btnLanguage.setOnClickListener {
+            LocaleHelper.setLocale(context,"bn")
+            requireActivity().recreate()
+        }
     }
 
     override fun onDestroyView() {

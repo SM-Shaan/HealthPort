@@ -22,7 +22,7 @@ class DiagnosisFragment : Fragment() {
 
     private var selectedSymptoms = mutableListOf<Symptom>()
 
-    private val allSymptoms = SymptomData.getEnabledSymptoms() // returns List<Symptom>
+    private var allSymptoms : List<Symptom> = emptyList()
     private var currentIndex = 0
     private val pageSize = 5
 
@@ -31,9 +31,11 @@ class DiagnosisFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
         _binding = FragmentDiagnosisBinding.inflate(inflater, container, false)
 
         // Setup Adapters
+        allSymptoms = SymptomData.getEnabledSymptoms(requireContext())
         availableAdapter = SymptomAdapter(getEnabledSymptoms()) { onSymptomClick(it) }
         selectedAdapter = SymptomAdapter(selectedSymptoms) { onSelectedSymptomClick(it) }
 

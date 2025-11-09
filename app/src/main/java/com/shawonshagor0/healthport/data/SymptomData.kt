@@ -1,32 +1,30 @@
 package com.shawonshagor0.healthport.data
 
+import android.content.Context
+import com.shawonshagor0.healthport.R
 import com.shawonshagor0.healthport.model.Symptom
 
 object SymptomData {
 
-    val initialSymptoms = listOf(
-        Symptom("Fever", false, true),
-        Symptom("Cough", false, true),
-        Symptom("Headache", false, true),
-        Symptom("Fatigue", false, true),
-        Symptom("Sore Throat", false, true),
-        Symptom("Nausea", false, true),
-        Symptom("Dizziness", false, true),
-        Symptom("Vomiting", false, false),
-        Symptom("Body Ache", false, false),
-        Symptom("Cold", false, false),
-        Symptom("Shortness of Breath", false, false),
-        Symptom("Blurred Vision", false, false),
-        Symptom("Chest Pain", false, false),
-        Symptom("Muscle Pain", false, false),
-        Symptom("Joint Pain", false, false),
-        Symptom("Back Pain", false, false),
-    )
-    fun getEnabledSymptoms(): List<Symptom> {
-        return initialSymptoms.filter { it.isEnabled }
+    fun getInitialSymptoms(context: Context): List<Symptom> {
+        return listOf(
+            Symptom(context.getString(R.string.joint_pain), false, true),
+            Symptom(context.getString(R.string.fever), false, true),
+            Symptom(context.getString(R.string.cough), false, true),
+            Symptom(context.getString(R.string.muscle_pain), false, true),
+            Symptom(context.getString(R.string.headache), false, true),
+            Symptom(context.getString(R.string.diarrhea), false, true),
+            Symptom(context.getString(R.string.nausea), false, true),
+            Symptom(context.getString(R.string.fatigue), false, true),
+            Symptom(context.getString(R.string.body_ache), false, true)
+        )
     }
-    fun getSelectedSymptoms(): List<Symptom> {
-        return initialSymptoms.filter { it.isSelected }
+
+    fun getEnabledSymptoms(context: Context): List<Symptom> {
+        return getInitialSymptoms(context).filter { it.isEnabled }
+    }
+    fun getSelectedSymptoms(context: Context): List<Symptom> {
+        return getInitialSymptoms(context).filter { it.isSelected }
     }
 
 }

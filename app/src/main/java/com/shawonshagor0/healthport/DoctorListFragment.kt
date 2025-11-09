@@ -24,7 +24,7 @@ class DoctorListFragment : Fragment() {
     ): View {
         _binding = FragmentDoctorListBinding.inflate(inflater, container, false)
 
-        val sortedDoctors = DoctorData.getDoctors("Cardiology", 0.0, 0.0)//TODO: Appropriate location and dept
+        val sortedDoctors = DoctorData.getDoctors(getString(R.string.orthopedics), 0.0, 0.0, requireContext())//TODO: Appropriate location and dept
 
         // Set up RecyclerView
         adapter = DoctorAdapter(sortedDoctors, onBookAppointmentClick = {

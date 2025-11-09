@@ -13,6 +13,6 @@
         android:layout_marginRight="16dp"
         android:text="@string/symptoms"
         android:backgroundTint="@android:color/holo_blue_light"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
         android:textAllCaps="false" />
 </LinearLayout>
