@@ -16,10 +16,17 @@ def disease_detection(model_embed, collection, query=None):
     # print(results)
     disease_list = []
     # print(results['metadatas'][0])
+    # print("Distances:")
+    # #   
+    # print(results['distances'][0])
     for i in range(len(results['ids'][0])):
         # print(results['metadatas'][0][i]["disease"])
-        disease_list.append(results['metadatas'][0][i]["disease"])
+        percentage = (1 - results['distances'][0][i]) * 100
+        disease_list.append({results['metadatas'][0][i]["disease"]: percentage} )
+        print(f"Distance: {results['distances'][0][i]} - Disease: {results['metadatas'][0][i]['disease']} - Symptoms: {results['metadatas'][0][i]['symptoms']}")
     return disease_list
+
+
 def dept_generate(disease=None):
     print("Generating department for disease:", disease)
     client = Client(

@@ -30,7 +30,7 @@ async def diagnose_symptoms(request: DiagnoseRequest):
     Calls the AI service to detect diseases and recommend departments
     """
     try:
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=120.0) as client:
             # Step 1: Detect diseases from symptoms
             disease_response = await client.post(
                 f"{AI_SERVICE_URL}/detect_disease",

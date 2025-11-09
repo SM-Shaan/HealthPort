@@ -36,31 +36,22 @@ else:
     if DATABASE_URL.startswith("mysql://"):
         DATABASE_URL = DATABASE_URL.replace("mysql://", "mysql+pymysql://", 1)
 
-    # Fix empty port issue by parsing and reconstructing the URL
-    # This handles Railway's DATABASE_URL format when port is empty or malformed
+    # Parse and log the URL
     try:
-        # First, fix obvious empty port patterns
-        DATABASE_URL = re.sub(r':@', ':3306@', DATABASE_URL)
-        DATABASE_URL = re.sub(r':/', ':3306/', DATABASE_URL)
-        DATABASE_URL = re.sub(r'@([^:/]+):/', r'@\1:3306/', DATABASE_URL)
-
-        # Parse the URL to ensure it's valid
         parsed = urlparse(DATABASE_URL)
 
-        # If port is still not set or is empty, set it to 3306
-        if not parsed.port or parsed.port == '':
-            # Reconstruct with explicit port
-            netloc = f"{parsed.username}:{parsed.password}@{parsed.hostname}:3306" if parsed.password else f"{parsed.username}@{parsed.hostname}:3306"
-            DATABASE_URL = urlunparse((
-                parsed.scheme,
-                netloc,
-                parsed.path,
-                parsed.params,
-                parsed.query,
-                parsed.fragment
-            ))
+        # Only fix empty port issue if port is actually missing
+        # Don't try to fix if port is already present
+        if not parsed.port:
+            # Fix empty port patterns
+            DATABASE_URL = re.sub(r':@', ':3306@', DATABASE_URL)
+            DATABASE_URL = re.sub(r':/', ':3306/', DATABASE_URL)
+            DATABASE_URL = re.sub(r'@([^:/]+):/', r'@\1:3306/', DATABASE_URL)
 
-        print(f"[DATABASE] Connecting to: {parsed.scheme}://{parsed.username}:***@{parsed.hostname}:{parsed.port or 3306}{parsed.path}")
+            # Re-parse after fixing
+            parsed = urlparse(DATABASE_URL)
+
+        print(f"[DATABASE] Connecting to: {parsed.scheme}://{parsed.username}:***@{parsed.hostname}:{parsed.port}{parsed.path}")
     except Exception as e:
         print(f"[WARNING] Error parsing DATABASE_URL: {e}")
         print(f"[DATABASE] Using DATABASE_URL as-is")

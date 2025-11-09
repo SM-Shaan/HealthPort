@@ -1,1 +1,2 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
+# *.csv filter=lfs diff=lfs merge=lfs -text
+# Removed CSV from LFS to fix Railway deployment

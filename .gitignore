@@ -4,6 +4,9 @@ dataset/*/*.zip
 dataset/Disease_and_symptoms_dataset.csv
 dataset/dataset_tabular.csv
 chroma_db/
+# Allow AI service ChromaDB (pre-embedded data for Railway)
+!AI_service/chroma_db/
+!AI_service/chroma_db/**
 models/
 server/funtion_building_for_shawon.py
 server/test.py
@@ -59,3 +62,6 @@ ENV/
 *.db
 *.sqlite
 *.sqlite3
+# Allow AI service ChromaDB database
+!AI_service/chroma_db/*.sqlite3
+!AI_service/chroma_db/**/*.sqlite3

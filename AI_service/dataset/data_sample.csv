@@ -1,3 +1,501 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17f65d87ac3735837a420fccbc0aa8c847aeb4a49078a451dd4750c072bc493e
-size 68006
+response,query,id
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",0
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ",1
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",2
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,breathing fast ",3
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,abnormal involuntary movements ,chest tightness ",4
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ",5
+panic disorder,anxiety and nervousness ,6
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",7
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ",8
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",9
+panic disorder,"shortness of breath ,insomnia ,breathing fast ",10
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ",11
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",12
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ",13
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ",14
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,breathing fast ",15
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ",16
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,breathing fast ",17
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ",18
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,palpitations ,irregular heartbeat ,breathing fast ",19
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",20
+panic disorder,"dizziness ,insomnia ,chest tightness ,palpitations ",21
+panic disorder,"depression ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",22
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",23
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,breathing fast ",24
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,breathing fast ",25
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,breathing fast ",26
+panic disorder,"depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ",27
+panic disorder,"depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",28
+panic disorder,"depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",29
+panic disorder,"depression ,shortness of breath ,dizziness ,irregular heartbeat ",30
+panic disorder,"depressive or psychotic symptoms ,insomnia ,chest tightness ",31
+panic disorder,"abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",32
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",33
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",34
+panic disorder,"anxiety and nervousness ,dizziness ,palpitations ,irregular heartbeat ",35
+panic disorder,"depression ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",36
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",37
+panic disorder,"depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",38
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,abnormal involuntary movements ,palpitations ",39
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",40
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ",41
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ",42
+panic disorder,"anxiety and nervousness ,shortness of breath ,palpitations ,irregular heartbeat ",43
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",44
+panic disorder,"depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",45
+panic disorder,"anxiety and nervousness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",46
+panic disorder,"dizziness ,insomnia ,chest tightness ",47
+panic disorder,"depression ,shortness of breath ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",48
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,breathing fast ",49
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,irregular heartbeat ,breathing fast ",50
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,breathing fast ",51
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",52
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,chest tightness ",53
+panic disorder,"dizziness ,insomnia ,irregular heartbeat ",54
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",55
+panic disorder,"shortness of breath ,breathing fast ",56
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,abnormal involuntary movements ",57
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,breathing fast ",58
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",59
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",60
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ,breathing fast ",61
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",62
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,abnormal involuntary movements ",63
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,chest tightness ,breathing fast ",64
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",65
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",66
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ",67
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,breathing fast ",68
+panic disorder,"anxiety and nervousness ,insomnia ,irregular heartbeat ,breathing fast ",69
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,palpitations ,irregular heartbeat ,breathing fast ",70
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ",71
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,chest tightness ,irregular heartbeat ",72
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,irregular heartbeat ",73
+panic disorder,"depression ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ",74
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",75
+panic disorder,"anxiety and nervousness ,dizziness ",76
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,breathing fast ",77
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,chest tightness ,palpitations ,breathing fast ",78
+panic disorder,"depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ",79
+panic disorder,"depression ,dizziness ,palpitations ,breathing fast ",80
+panic disorder,"anxiety and nervousness ,shortness of breath ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",81
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ",82
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ",83
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,abnormal involuntary movements ,breathing fast ",84
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",85
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ,breathing fast ",86
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ",87
+panic disorder,"depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",88
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",89
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",90
+panic disorder,"shortness of breath ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",91
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",92
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,breathing fast ",93
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ",94
+panic disorder,depression ,95
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",96
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",97
+panic disorder,"anxiety and nervousness ,dizziness ,breathing fast ",98
+panic disorder,"depressive or psychotic symptoms ,palpitations ,irregular heartbeat ",99
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ",100
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,palpitations ,breathing fast ",101
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",102
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,breathing fast ",103
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",104
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",105
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,irregular heartbeat ,breathing fast ",106
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ",107
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,breathing fast ",108
+panic disorder,"anxiety and nervousness ,depression ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",109
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ",110
+panic disorder,"anxiety and nervousness ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",111
+panic disorder,"anxiety and nervousness ,abnormal involuntary movements ,palpitations ",112
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ",113
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ",114
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",115
+panic disorder,"anxiety and nervousness ,abnormal involuntary movements ",116
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ",117
+panic disorder,"dizziness ,insomnia ,irregular heartbeat ,breathing fast ",118
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,palpitations ",119
+panic disorder,"depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",120
+panic disorder,"depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",121
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",122
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,chest tightness ",123
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,insomnia ,irregular heartbeat ,breathing fast ",124
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,palpitations ",125
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",126
+panic disorder,"depression ,shortness of breath ,dizziness ,palpitations ",127
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,breathing fast ",128
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,insomnia ,chest tightness ,breathing fast ",129
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",130
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",131
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ",132
+panic disorder,"depression ,dizziness ,insomnia ",133
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,breathing fast ",134
+panic disorder,"dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",135
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",136
+panic disorder,"shortness of breath ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",137
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",138
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,breathing fast ",139
+panic disorder,"depression ,insomnia ,abnormal involuntary movements ,chest tightness ",140
+panic disorder,"anxiety and nervousness ,abnormal involuntary movements ,chest tightness ",141
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",142
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",143
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",144
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",145
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",146
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",147
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,palpitations ,irregular heartbeat ,breathing fast ",148
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ",149
+panic disorder,"depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ",150
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",151
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",152
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",153
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",154
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",155
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",156
+panic disorder,"anxiety and nervousness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",157
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,chest tightness ,palpitations ,breathing fast ",158
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,palpitations ,breathing fast ",159
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",160
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",161
+panic disorder,"anxiety and nervousness ,shortness of breath ,breathing fast ",162
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ",163
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,breathing fast ",164
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",165
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",166
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",167
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",168
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",169
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,chest tightness ,palpitations ",170
+panic disorder,"depression ,insomnia ,abnormal involuntary movements ,breathing fast ",171
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",172
+panic disorder,"anxiety and nervousness ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",173
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ",174
+panic disorder,"depressive or psychotic symptoms ,insomnia ,palpitations ,breathing fast ",175
+panic disorder,"depression ,shortness of breath ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",176
+panic disorder,"depression ,shortness of breath ,dizziness ,abnormal involuntary movements ,breathing fast ",177
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,chest tightness ,breathing fast ",178
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,breathing fast ",179
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ",180
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",181
+panic disorder,"anxiety and nervousness ,depression ,chest tightness ,palpitations ,irregular heartbeat ",182
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,breathing fast ",183
+panic disorder,"anxiety and nervousness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",184
+panic disorder,"depression ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",185
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ",186
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",187
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ",188
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,irregular heartbeat ",189
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",190
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,breathing fast ",191
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,palpitations ,breathing fast ",192
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",193
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,chest tightness ",194
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",195
+panic disorder,"dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",196
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",197
+panic disorder,"depression ,shortness of breath ,palpitations ,irregular heartbeat ",198
+panic disorder,"depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",199
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ",200
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",201
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,chest tightness ,breathing fast ",202
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",203
+panic disorder,"shortness of breath ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",204
+panic disorder,"depression ,shortness of breath ,insomnia ,breathing fast ",205
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,breathing fast ",206
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,chest tightness ,breathing fast ",207
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",208
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",209
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",210
+panic disorder,"shortness of breath ,insomnia ",211
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ",212
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",213
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,breathing fast ",214
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,chest tightness ",215
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",216
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,abnormal involuntary movements ",217
+panic disorder,"depressive or psychotic symptoms ,dizziness ,chest tightness ",218
+panic disorder,"depressive or psychotic symptoms ,dizziness ,breathing fast ",219
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",220
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",221
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ",222
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",223
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,abnormal involuntary movements ,palpitations ",224
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",225
+panic disorder,"anxiety and nervousness ,dizziness ,chest tightness ,palpitations ",226
+panic disorder,"depression ,shortness of breath ,dizziness ,palpitations ,irregular heartbeat ",227
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ",228
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",229
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ",230
+panic disorder,"depression ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ",231
+panic disorder,"anxiety and nervousness ,dizziness ,palpitations ,breathing fast ",232
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",233
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",234
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,palpitations ,irregular heartbeat ",235
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",236
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",237
+panic disorder,"shortness of breath ,chest tightness ,palpitations ",238
+panic disorder,"anxiety and nervousness ,depression ,abnormal involuntary movements ,palpitations ,breathing fast ",239
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,breathing fast ",240
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",241
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",242
+panic disorder,"shortness of breath ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",243
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ",244
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,breathing fast ",245
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ",246
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",247
+panic disorder,"depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",248
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",249
+panic disorder,"depressive or psychotic symptoms ,chest tightness ,irregular heartbeat ,breathing fast ",250
+panic disorder,"depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",251
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,chest tightness ",252
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",253
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",254
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,palpitations ,irregular heartbeat ",255
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",256
+panic disorder,"depression ,depressive or psychotic symptoms ",257
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ",258
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",259
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",260
+panic disorder,"depressive or psychotic symptoms ,insomnia ",261
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,irregular heartbeat ,breathing fast ",262
+panic disorder,"depression ,shortness of breath ,insomnia ,irregular heartbeat ",263
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ",264
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,insomnia ,palpitations ",265
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",266
+panic disorder,"depression ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",267
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ",268
+panic disorder,"depression ,shortness of breath ,dizziness ,abnormal involuntary movements ,chest tightness ",269
+panic disorder,"depression ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",270
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,breathing fast ",271
+panic disorder,"shortness of breath ,abnormal involuntary movements ,palpitations ",272
+panic disorder,"depression ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ",273
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",274
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",275
+panic disorder,"depression ,depressive or psychotic symptoms ,chest tightness ,breathing fast ",276
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",277
+panic disorder,"depression ,shortness of breath ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",278
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ,breathing fast ",279
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",280
+panic disorder,"depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",281
+panic disorder,"depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",282
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",283
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ",284
+panic disorder,"shortness of breath ,insomnia ,abnormal involuntary movements ,chest tightness ",285
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,breathing fast ",286
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ",287
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ",288
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",289
+panic disorder,"depression ,shortness of breath ,dizziness ,palpitations ,irregular heartbeat ,breathing fast ",290
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,breathing fast ",291
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,irregular heartbeat ",292
+panic disorder,"anxiety and nervousness ,shortness of breath ,irregular heartbeat ,breathing fast ",293
+panic disorder,"depression ,shortness of breath ,insomnia ,chest tightness ",294
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,palpitations ,irregular heartbeat ,breathing fast ",295
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",296
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",297
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",298
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,breathing fast ",299
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",300
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ",301
+panic disorder,"shortness of breath ,dizziness ,insomnia ,breathing fast ",302
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,chest tightness ,irregular heartbeat ,breathing fast ",303
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ",304
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,palpitations ",305
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",306
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,abnormal involuntary movements ,palpitations ",307
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",308
+panic disorder,"anxiety and nervousness ,shortness of breath ",309
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",310
+panic disorder,"anxiety and nervousness ,dizziness ,chest tightness ,palpitations ,breathing fast ",311
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",312
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,palpitations ",313
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ",314
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,palpitations ",315
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,palpitations ",316
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,abnormal involuntary movements ,chest tightness ,breathing fast ",317
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ",318
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,breathing fast ",319
+panic disorder,"dizziness ,insomnia ,chest tightness ,palpitations ,breathing fast ",320
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ,breathing fast ",321
+panic disorder,"dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",322
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ,breathing fast ",323
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ",324
+panic disorder,"depression ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",325
+panic disorder,"insomnia ,abnormal involuntary movements ,chest tightness ",326
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,irregular heartbeat ,breathing fast ",327
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",328
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,palpitations ,breathing fast ",329
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ",330
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,chest tightness ,irregular heartbeat ,breathing fast ",331
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",332
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",333
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ",334
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,irregular heartbeat ,breathing fast ",335
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",336
+panic disorder,"shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",337
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ",338
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",339
+panic disorder,depressive or psychotic symptoms ,340
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",341
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,palpitations ",342
+panic disorder,"anxiety and nervousness ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",343
+panic disorder,"anxiety and nervousness ,insomnia ,abnormal involuntary movements ",344
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",345
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,breathing fast ",346
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,chest tightness ",347
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",348
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",349
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",350
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,chest tightness ",351
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,irregular heartbeat ",352
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",353
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,palpitations ,breathing fast ",354
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,palpitations ,irregular heartbeat ",355
+panic disorder,"depression ,depressive or psychotic symptoms ,chest tightness ",356
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",357
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",358
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",359
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",360
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,breathing fast ",361
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",362
+panic disorder,"depression ,shortness of breath ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",363
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",364
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,palpitations ,irregular heartbeat ",365
+panic disorder,"anxiety and nervousness ,insomnia ,abnormal involuntary movements ,chest tightness ",366
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,breathing fast ",367
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",368
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,breathing fast ",369
+panic disorder,"depression ,depressive or psychotic symptoms ,insomnia ,palpitations ,breathing fast ",370
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",371
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",372
+panic disorder,"depression ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",373
+panic disorder,"depression ,dizziness ,abnormal involuntary movements ,chest tightness ",374
+panic disorder,"anxiety and nervousness ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",375
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ",376
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",377
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",378
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",379
+panic disorder,"depression ,shortness of breath ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ",380
+panic disorder,"anxiety and nervousness ,irregular heartbeat ,breathing fast ",381
+panic disorder,"shortness of breath ,dizziness ,abnormal involuntary movements ",382
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",383
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,palpitations ,irregular heartbeat ",384
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ",385
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",386
+panic disorder,"depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",387
+panic disorder,"anxiety and nervousness ,insomnia ,irregular heartbeat ",388
+panic disorder,"anxiety and nervousness ,depression ,palpitations ",389
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",390
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,breathing fast ",391
+panic disorder,"depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",392
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,irregular heartbeat ",393
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",394
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ",395
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ",396
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",397
+panic disorder,"depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,irregular heartbeat ",398
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ,breathing fast ",399
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,irregular heartbeat ,breathing fast ",400
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,breathing fast ",401
+panic disorder,"depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",402
+panic disorder,"depression ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",403
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,breathing fast ",404
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,chest tightness ,irregular heartbeat ,breathing fast ",405
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,breathing fast ",406
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",407
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",408
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,palpitations ,breathing fast ",409
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ",410
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ",411
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ",412
+panic disorder,"anxiety and nervousness ,depression ,dizziness ,palpitations ,breathing fast ",413
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",414
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,abnormal involuntary movements ,palpitations ,breathing fast ",415
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,abnormal involuntary movements ,palpitations ,breathing fast ",416
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",417
+panic disorder,"depression ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",418
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",419
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ,breathing fast ",420
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",421
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",422
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ",423
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",424
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ",425
+panic disorder,"dizziness ,chest tightness ,palpitations ",426
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",427
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,irregular heartbeat ",428
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ",429
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ",430
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ",431
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",432
+panic disorder,"anxiety and nervousness ,shortness of breath ,insomnia ,chest tightness ",433
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,irregular heartbeat ",434
+panic disorder,"shortness of breath ,insomnia ,abnormal involuntary movements ,breathing fast ",435
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ,breathing fast ",436
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",437
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",438
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,breathing fast ",439
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,breathing fast ",440
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",441
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,breathing fast ",442
+panic disorder,"depression ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ",443
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ",444
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,insomnia ,chest tightness ,palpitations ,breathing fast ",445
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ",446
+panic disorder,"dizziness ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",447
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,chest tightness ,irregular heartbeat ,breathing fast ",448
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ",449
+panic disorder,"depression ,shortness of breath ,dizziness ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",450
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,irregular heartbeat ,breathing fast ",451
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ",452
+panic disorder,"depression ,shortness of breath ,chest tightness ,irregular heartbeat ",453
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",454
+panic disorder,"anxiety and nervousness ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,breathing fast ",455
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ,breathing fast ",456
+panic disorder,"anxiety and nervousness ,insomnia ,palpitations ",457
+panic disorder,"depression ,dizziness ,palpitations ,irregular heartbeat ",458
+panic disorder,"anxiety and nervousness ,depression ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",459
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,palpitations ,irregular heartbeat ,breathing fast ",460
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",461
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ",462
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,palpitations ,breathing fast ",463
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,breathing fast ",464
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,chest tightness ,breathing fast ",465
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,dizziness ,chest tightness ,irregular heartbeat ,breathing fast ",466
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,breathing fast ",467
+panic disorder,"anxiety and nervousness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",468
+panic disorder,"depression ,shortness of breath ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",469
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,breathing fast ",470
+panic disorder,"anxiety and nervousness ,dizziness ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",471
+panic disorder,"anxiety and nervousness ,shortness of breath ,abnormal involuntary movements ",472
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,breathing fast ",473
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",474
+panic disorder,"depressive or psychotic symptoms ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",475
+panic disorder,"abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",476
+panic disorder,"shortness of breath ,dizziness ,chest tightness ,palpitations ",477
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,chest tightness ,irregular heartbeat ,breathing fast ",478
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ",479
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,irregular heartbeat ",480
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",481
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",482
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",483
+panic disorder,"depression ,shortness of breath ,dizziness ,insomnia ",484
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,palpitations ",485
+panic disorder,"depression ,dizziness ,chest tightness ",486
+panic disorder,"anxiety and nervousness ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,chest tightness ,irregular heartbeat ,breathing fast ",487
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",488
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,insomnia ,abnormal involuntary movements ,chest tightness ,irregular heartbeat ,breathing fast ",489
+panic disorder,"anxiety and nervousness ,depressive or psychotic symptoms ,dizziness ,insomnia ,irregular heartbeat ,breathing fast ",490
+panic disorder,"anxiety and nervousness ,depression ,shortness of breath ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ",491
+panic disorder,"chest tightness ,palpitations ,irregular heartbeat ,breathing fast ",492
+panic disorder,"depression ,shortness of breath ,depressive or psychotic symptoms ,dizziness ,insomnia ,chest tightness ,irregular heartbeat ,breathing fast ",493
+panic disorder,"anxiety and nervousness ,insomnia ,abnormal involuntary movements ,palpitations ,irregular heartbeat ,breathing fast ",494
+panic disorder,"depressive or psychotic symptoms ,abnormal involuntary movements ",495
+panic disorder,"depression ,depressive or psychotic symptoms ,dizziness ,insomnia ,abnormal involuntary movements ,chest tightness ,palpitations ,irregular heartbeat ",496
+panic disorder,"depressive or psychotic symptoms ,abnormal involuntary movements ,irregular heartbeat ",497
+panic disorder,"shortness of breath ,depressive or psychotic symptoms ,abnormal involuntary movements ,breathing fast ",498
+panic disorder,"anxiety and nervousness ,depression ,depressive or psychotic symptoms ,dizziness ,abnormal involuntary movements ,palpitations ,breathing fast ",499
