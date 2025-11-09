@@ -38,8 +38,8 @@
         android:label="fragment_diagnosis"
         tools:layout="@layout/fragment_diagnosis" >
         <action
-            android:id="@+id/action_diagnosisFragment_to_doctorListFragment"
-            app:destination="@id/doctorListFragment" />
+            android:id="@+id/action_diagnosisFragment_to_diseaseFragment"
+            app:destination="@id/diseaseFragment" />
     </fragment>
     <fragment
         android:id="@+id/doctorListFragment"
@@ -64,7 +64,25 @@
         android:name="com.shawonshagor0.healthport.AppointmentFragment"
         android:label="AppointmentFragment" >
         <action
-            android:id="@+id/action_appointmentFragment_to_bookingConfirmationFragment"
+            android:id="@+id/action_appointmentFragment_to_appointmentDetailsFragment"
+            app:destination="@id/appointmentDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diseaseFragment"
+        android:name="com.shawonshagor0.healthport.DiseaseFragment"
+        android:label="fragment_disease"
+        tools:layout="@layout/fragment_disease" >
+        <action
+            android:id="@+id/action_diseaseFragment_to_doctorListFragment"
+            app:destination="@id/doctorListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentDetailsFragment"
+        android:name="com.shawonshagor0.healthport.AppointmentDetailsFragment"
+        android:label="fragment_appointment_details"
+        tools:layout="@layout/fragment_appointment_details" >
+        <action
+            android:id="@+id/action_appointmentDetailsFragment_to_bookingConfirmationFragment"
             app:destination="@id/bookingConfirmationFragment" />
     </fragment>
 </navigation>

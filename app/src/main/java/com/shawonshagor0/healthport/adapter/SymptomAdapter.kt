@@ -13,7 +13,7 @@ class SymptomAdapter(
     private val onSymptomClick: (Symptom) -> Unit
 ) : RecyclerView.Adapter<SymptomAdapter.SymptomViewHolder>() {
 
-    inner class SymptomViewHolder(private val binding: ItemSymptomBinding) :
+    inner class SymptomViewHolder(internal val binding: ItemSymptomBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(symptom: Symptom) {
             binding.btnSymptom.text = symptom.name
@@ -39,7 +39,12 @@ class SymptomAdapter(
     }
 
     override fun onBindViewHolder(holder: SymptomViewHolder, position: Int) {
-        holder.bind(symptoms[position])
+        val symptom = symptoms[position]
+        holder.binding.btnSymptom.text = symptom.name
+        holder.binding.btnSymptom.setOnClickListener {
+            onSymptomClick(symptom)
+        }
+
     }
 
     override fun getItemCount(): Int = symptoms.size
@@ -48,4 +53,8 @@ class SymptomAdapter(
         symptoms = newSymptoms
         notifyDataSetChanged()
     }
+//    fun updateSymptoms(newList: List<String>) {
+//        symptoms = newList
+//        notifyDataSetChanged()
+//    }
 }
