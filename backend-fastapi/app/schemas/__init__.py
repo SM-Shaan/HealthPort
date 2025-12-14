@@ -28,6 +28,15 @@ class LoginResponse(BaseModel):
         from_attributes = True
 
 # Doctor Schemas
+class DoctorCreate(BaseModel):
+    docemail: EmailStr
+    docname: str
+    docnic: str
+    doctel: str
+    specialties: int
+    docpassword: str
+    hospital_id: int
+
 class DoctorResponse(BaseModel):
     docid: int
     docemail: str
@@ -119,6 +128,18 @@ class AppointmentCreate(BaseModel):
     scheduleId: int
     appointmentDate: datetime
 
+class AppointmentWithNewPatient(BaseModel):
+    scheduleId: int
+    appointmentDate: datetime
+    # Patient info
+    pemail: EmailStr
+    pname: str
+    ppassword: str
+    paddress: str
+    pnic: str
+    pdob: date
+    ptel: str
+
 class AppointmentResponse(BaseModel):
     appoid: int
     pid: int
@@ -134,6 +155,15 @@ class AppointmentResponse(BaseModel):
         from_attributes = True
 
 # Patient Schemas
+class PatientCreate(BaseModel):
+    pemail: EmailStr
+    pname: str
+    ppassword: str
+    paddress: str
+    pnic: str
+    pdob: date
+    ptel: str
+
 class PatientResponse(BaseModel):
     pid: int
     pemail: str
